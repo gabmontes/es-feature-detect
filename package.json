@@ -1,0 +1,27 @@
+{
+  "name": "es-feature-detect",
+  "version": "1.0.0",
+  "description": "Simple ECMAScript feature detection module",
+  "keywords": [
+    "cli",
+    "ecmascript",
+    "es",
+    "es2015",
+    "es2016",
+    "feature detect"
+  ],
+  "license": "WTFPL",
+  "author": "Gabriel Montes <gabriel@utoctadel.com.ar>",
+  "main": "index.js",
+  "bin": {
+    "node-feature-detect": "bin/detect.js"
+  },
+  "repository": "gabmontes/es-feature-detect",
+  "dependencies": {
+    "colour": "^0.7.1",
+    "split-camelcase": "^1.0.1"
+  },
+  "devDependencies": {
+    "eslint": "^3.4.0"
+  }
+}
