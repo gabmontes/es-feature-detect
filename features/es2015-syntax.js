@@ -19,7 +19,7 @@ module.exports = [
   },
   {
     name: 'shorthandProperties',
-    test: "'use strict'; var a = 7, b = 8, c = {a, b}, get = 'a', d = { get }; return c.a === a && c.b === b && d.get = get;"
+    test: "'use strict'; var a = 7, b = 8, c = {a, b}, get = 'a', d = { get }; return c.a === a && c.b === b && d.get === get;"
   },
   {
     name: 'shorthandMethods',
