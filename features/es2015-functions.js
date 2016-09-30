@@ -11,7 +11,7 @@ module.exports = [
   },
   {
     name: 'objectSuper',
-    test: "'use strict'; var a = { b: 2 }, c = { d() { return super.b; } }; Object.setPrototypeOf(c, a); return c.d() !== 2;"
+    test: "'use strict'; var a = { b: 2 }, c = { d() { return super.b; } }; Object.setPrototypeOf(c, a); return c.d() === 2;"
   },
   {
     name: 'generators',
