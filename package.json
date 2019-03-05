@@ -22,6 +22,6 @@
     "split-camelcase": "^1.0.1"
   },
   "devDependencies": {
-    "eslint": "^4.1.0"
+    "eslint": "^5.15.1"
   }
 }
